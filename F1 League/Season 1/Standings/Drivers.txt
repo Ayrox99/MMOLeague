@@ -1,0 +1,26 @@
+R1-Black Sea D,R2-Singapore A,R3-Doha C,R4-Ardennes A,R5-Rio A,R6-Noordwijk A
+1-Nato-CV19-111p.
+2-Blomqvist-DGD Racing-99p.
+3-Buemi-Roinel GP-98p.
+4-Calado-Recker-97p.
+5-D'Ambrosio-BrunoYT-90p.
+6-North-Recker-81p.
+7-Di Grassi-AERSP-76p.
+8-Blomqvist-DMM Racing Team-68p.
+9-Vandoorne-DMM Racing Team-66p.
+10-Bird-AERSP-51p.
+11-Bird-Thai Racing-50p.
+12-Muller-Roinel GP-50p.
+13-Rowland-CV19-47p.
+14-Massa-DGD Racing-42p.
+15-Da Costa-Street Campus-42p.
+16-Rowland-BrunoYT-38p.
+17-Nato-DMM Racing Team-37p.
+18-Evans-Thai Racing-26p.
+19-Rowland-Street Campus-22p.
+20-Lavoie-Thai Racing-20p.
+21-De Vries-HRT-15p.
+22-Blomqvist-BrunoYT-15p.
+23-Massa-HRT-11p.
+24-Vandoorne-Street Campus-7p.
+25-Buemi-AERSP-1p.

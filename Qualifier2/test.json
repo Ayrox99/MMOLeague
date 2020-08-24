@@ -1,0 +1,82 @@
+{
+  "races": [
+    "Milan A",
+    "Noordwidk B",
+    "Rio A",
+    "Munich C",
+    "Sydney A",
+    "Toluca A",
+    "Monaco A",
+    "Ardennes A"
+  ],
+  "drivers": [
+    {
+      "position": 1,
+      "name": "Nato",
+      "teamname": "Roinel GP",
+      "totalpoints": 158,
+      "results": [
+        "20",
+        "20",
+        "19",
+        "20",
+        "20",
+        "20",
+        "19",
+        "20"
+      ],
+      "positions": [
+        1,
+        1,
+        2,
+        1,
+        1,
+        1,
+        2,
+        1
+      ]
+    },
+    {
+      "position": 2,
+      "name": "Calado",
+      "teamname": "Recker",
+      "totalpoints": 148,
+      "results": [
+        "18",
+        "19",
+        "20",
+        "19",
+        "18",
+        "18",
+        "17",
+        "19"
+      ],
+      "positions": [
+        3,
+        2,
+        1,
+        2,
+        3,
+        3,
+        4,
+        2
+      ]
+    }
+  ],
+  "teams": [
+    {
+      "position": 1,
+      "name": "Roinel GP",
+      "points": 259,
+      "victories": 6,
+      "podiums": 8
+    },
+    {
+      "position": 2,
+      "name": "Recker",
+      "points": 253,
+      "victories": 1,
+      "podiums": 7
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+R1-Milan A,R2-Noordwidk B,R3-Rio A,R4-Munich C,R5-Sydney A,R6-Toluca A,R7-Monaco A,R8-Ardennes
+1-Roinel GP-259p.
+2-Recker-253p.
+3-Street Campus-251p.
+4-CV19-221p.
+5-DGD Racing-201p.
+6-Fearless Racing-187p.
+7-The Cores-83p.
+8-MILC Motorsport-63p.
+9-BhismPitamah-27p.

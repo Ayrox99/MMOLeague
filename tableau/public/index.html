@@ -1,0 +1,64 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+</head>
+<body>
+    <div class="league container text-center">
+        <h1>🏎️ MMO League 🏎️</h1>
+    </div>
+    <div class="container">
+        <div class="row">
+            <h4 class="pilotes">Drivers Standings</h4>
+        </div>
+       
+        <div class="row">
+            <div class="col align-self-center">
+                <table class="table table-striped">
+                    <caption class="updated"></caption>
+                    <thead>
+                        <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Team</th>
+                        <th scope="col">Driver</th>
+                        
+                        <th id="driver-points" class="points" scope="col">Points</th>
+                        </tr>
+                    </thead>
+                    <tbody id="driver-data">
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="row second">
+            <h4 class="pilotes">Teams Standings</h4>
+        </div>
+        <div class="row">
+                <div class="col align-self-center">
+                    <table class="table table-striped">
+                        <caption class="updated"></caption>
+                        <thead>
+                            <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">Team</th>
+                            <th scope="col">Wins</th>
+                            <th scope="col">Podiums</th>
+                            <th class="points" scope="col">Points</th>
+                            </tr>
+                        </thead>
+                        <tbody id="team-data">
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+    </div>
+</body>
+    <script src="jquery-3.5.1.min.js"></script>
+    <script src="bootstrap.min.js"></script>
+    <script src="race.js"></script>
+</html>

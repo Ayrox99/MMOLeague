@@ -1,0 +1,17 @@
+R1-BlackSea D,R2-Singapore A,R3-Doha C,R4-Ardennes A,R5-Rio A
+1-Bird-Fearless Racings-88p.
+2-Di Grassi-HyperRacing-88p.
+3-Rast-Deprez Notifly-86p.
+4-North-Manish-83p.
+5-Di Grassi-Fearless Racings-79p.
+6-De Vries-the diff-76p.
+7-Calado-Manish-73p.
+8-King-Deprez Notifly-65p.
+9-Di Grassi-the diff-58p.
+10-Frinjs-Ashour Racing-49p.
+11-Rowland-HyperRacing-46p.
+12-Di Grassi-BhismPitamah-42p.
+13-Vandoorne-Mikado Autoworks-40p.
+14-De Vries-BhismPitamah-38p.
+15-Buemi-Ashour Racing-34p.
+16-D'Ambrosio-Mikado Autoworks-33p.

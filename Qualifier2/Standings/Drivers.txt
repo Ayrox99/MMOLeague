@@ -1,0 +1,19 @@
+R1-Milan A,R2-Noordwidk B,R3-Rio A,R4-Munich C,R5-Sydney A,R6-Toluca A,R7-Monaco A,R8-Ardennes
+1-Nato-Roinel GP-158p.
+2-Calado-Recker-148p.
+3-Abt-CV19-143p.
+4-Sims-Street Campus-128p.
+5-Evans-Street Campus-123p.
+6-North-Recker-105p.
+7-Vergne-DGD Racing-103p.
+8-Massa-Roinel GP-101p.
+9-Massa-DGD Racing-98p.
+10-Bird-Fearless Racing-98p.
+11-Di Grassi-Fearless Racing-89p.
+12-Guenther-CV19-78p.
+13-Sims-The Cores-44p.
+14-Calado-The Cores-39p.
+15-Buemi-MILC Motorsport-34p.
+16-Bird-MILC Motorsport-29p.
+17-Di Grassi-BhismPitamah-15p.
+18-De Vries-BhismPitamah-12p.

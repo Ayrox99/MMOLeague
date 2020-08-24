@@ -1,0 +1,9 @@
+R1-Black Sea D,R2-Singapore A,R3-Doha C,R4-Ardennes A
+1-Di Grassi-RrSport-80p.
+2-Massa-RrSport-76p.
+3-Vergne-BorderlineRacing-72p.
+4-Buemi-BorderlineRacing-66p.
+5-Bird-MILC Motorsports-63p.
+6-Di Grassi-MILC Motorsports-63p.
+7-Santa Ana-Chevrolet Racing-27p.
+8-Tifft-Chevrolet Racing-27p.

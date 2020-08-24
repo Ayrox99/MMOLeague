@@ -1,0 +1,11 @@
+R1-Milan A,R2-Noordwidk B,R3-Rio A,R4-Munich C,R5-Sydney A,R6-Toluca A,R7-Monaco A,R8-Ardennes A
+1-Rast-Flamengo Sport-159p.
+2-Bird-AERSP-148p.
+3-Rast-TORRES-147p.
+4-Di Grassi-AERSP-140p.
+5-Guenther-Flamengo Sport-135p.
+6-Guenther-TORRES-111p.
+7-North-NormanTheGr8-14p.
+8-Tifft-Chevrolet Racing-14p.
+9-Calado-NormanTheGr8-13p.
+10-Santa Ana-Chevrolet Racing-13p.
