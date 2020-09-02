@@ -1,17 +1,22 @@
-R1-BlackSea D,R2-Singapore A,R3-Doha C,R4-Ardennes A,R5-Rio A
-1-Bird-Fearless Racings-88p.
-2-Di Grassi-HyperRacing-88p.
-3-Rast-Deprez Notifly-86p.
-4-North-Manish-83p.
-5-Di Grassi-Fearless Racings-79p.
-6-De Vries-the diff-76p.
-7-Calado-Manish-73p.
-8-King-Deprez Notifly-65p.
-9-Di Grassi-the diff-58p.
-10-Frinjs-Ashour Racing-49p.
-11-Rowland-HyperRacing-46p.
-12-Di Grassi-BhismPitamah-42p.
-13-Vandoorne-Mikado Autoworks-40p.
-14-De Vries-BhismPitamah-38p.
-15-Buemi-Ashour Racing-34p.
-16-D'Ambrosio-Mikado Autoworks-33p.
+R1-BlackSea D,R2-Singapore A,R3-Doha C,R4-Ardennes A,R5-Rio A,R10-Tondela D,R6-Stewart Island D,R7-Bahrain A,R8-Toluca A,R9-Munich D
+1-Di Grassi-Fearless Racings-165p.
+2-Rast-Deprez Notifly-160p.
+3-Bird-Fearless Racings-152p.
+4-Di Grassi-HyperRacing-152p.
+5-King-Deprez Notifly-146p.
+6-Di Grassi-BhismPitamah-117p.
+7-De Vries-the diff-115p.
+8-Di Grassi-the diff-110p.
+9-Rowland-HyperRacing-94p.
+10-Blomqvist-Team Thai Racing-94p.
+11-North-Team Thai Racing-90p.
+12-North-Manish-83p.
+13-Frinjs-Ashour Racing-80p.
+14-De Vries-BhismPitamah-78p.
+15-Calado-Manish-73p.
+16-Di Grassi-Manish-73p.
+17-Vandoorne-Mikado Autoworks-59p.
+18-Bird-Manish-59p.
+19-D'Ambrosio-Mikado Autoworks-58p.
+20-Buemi-Ashour Racing-34p.
+21-Da Costa-Ashour Racing-21p.

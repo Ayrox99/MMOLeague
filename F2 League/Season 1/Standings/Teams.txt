@@ -1,9 +1,10 @@
-R1-BlackSea D,R2-Singapore A,R3-Doha C,R4-Ardennes A,R5-Rio A
-1-Fearless Racings-167p.
-2-Manish-156p.
-3-Deprez Notifly-151p.
-4-the diff-134p.
-5-HyperRacing-134p.
-6-Ashour Racing-83p.
-7-BhismPitamah-80p.
-8-Mikado Autoworks-73p.
+R1-BlackSea D,R2-Singapore A,R3-Doha C,R4-Ardennes A,R5-Rio A,R10-Tondela D,R6-Stewart Island D,R7-Bahrain A,R8-Toluca A,R9-Munich D
+1-Fearless Racings-317p.
+2-Deprez Notifly-306p.
+3-Manish-288p.
+4-HyperRacing-246p.
+5-the diff-225p.
+6-BhismPitamah-195p.
+7-Team Thai Racing-184p.
+8-Ashour Racing-135p.
+9-Mikado Autoworks-117p.

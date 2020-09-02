@@ -1,5 +1,6 @@
-R1-Black Sea D,R2-Singapore A,R3-Doha C,R4-Ardennes A
-1-RrSport-156p.
-2-BorderlineRacing-138p.
-3-MILC Motorsports-126p.
-4-Chevrolet Racing-54p.
+R1-Black Sea D,R2-Singapore A,R3-Doha C,R4-Ardennes A,R5-Stewart Island D,R6-Bahrain A,R7-Toluca A,R8-Munich D
+1-RrSport-304p.
+2-MILC Motorsports-250p.
+3-Uduk Racing-148p.
+4-BorderlineRacing-138p.
+5-Chevrolet Racing-54p.
