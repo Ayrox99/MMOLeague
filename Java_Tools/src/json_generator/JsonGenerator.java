@@ -7,6 +7,8 @@ import java.io.IOException;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 import java.util.Scanner;
 
 import standings_sorter.Utility_StandingsSorter;
@@ -35,9 +37,16 @@ public class JsonGenerator {
 		    	String data = myReader.nextLine();
 		        if (count==0) {
 		        	String[] tabRaces = data.split(",");
+		        	List<String> tempRaces = Arrays.asList(tabRaces);
+		        	ArrayList<String> races = Utility_JsonGenerator.listToArrayList(tempRaces);
+		        	Utility_JsonGenerator.racesSorter(races);
+		        	for (int i = 0; i<tabRaces.length; i++) {
+		        		tabRaces[i] = races.get(i);
+		        	}
 		        	for (int i = 0; i<tabRaces.length; i++) {
 		        		racesList.add(tabRaces[i].split("-")[1]);
 		        	}
+		        	
 		        }
 		        if (count>0 && !data.contentEquals("")) {
 		        	String[] rowTeam = data.split("-");
@@ -191,162 +200,6 @@ public class JsonGenerator {
 		return s;
 	}
 	
-	public void generateRaceJs(String path) {
-		String s = "function loadJSON(callback) {   \r\n" + 
-				"\r\n" + 
-				"    let xobj = new XMLHttpRequest();\r\n" + 
-				"    xobj.overrideMimeType(\"application/json\");\r\n" + 
-				"    xobj.open('GET', '";
-		s+=path+"\\infos.json";
-		s+="', true);\r\n" + 
-				"    xobj.onreadystatechange = function () {\r\n" + 
-				"          if (xobj.readyState == 4 && xobj.status == \"200\") {\r\n" + 
-				"            callback(xobj.responseText);\r\n" + 
-				"          }\r\n" + 
-				"    };\r\n" + 
-				"    xobj.send(null);  \r\n" + 
-				"}\r\n" + 
-				"\r\n" + 
-				"\r\n" + 
-				"function init() {\r\n" + 
-				"    loadJSON(function(response) {\r\n" + 
-				"\r\n" + 
-				"        let actual_JSON = JSON.parse(response);\r\n" + 
-				"\r\n" + 
-				"        let points = document.getElementById(\"driver-points\");\r\n" + 
-				"\r\n" + 
-				"        actual_JSON[\"races\"].forEach(race => {\r\n" + 
-				"            let new_th = document.createElement(\"th\");\r\n" + 
-				"            new_th.textContent = race;\r\n" + 
-				"            new_th.className = \"gp\";\r\n" + 
-				"            points.before(new_th);\r\n" + 
-				"        });\r\n" + 
-				"\r\n" + 
-				"        let driver_data = document.getElementById(\"driver-data\");\r\n" + 
-				"\r\n" + 
-				"        actual_JSON[\"drivers\"].forEach(driver => {//Tableau des pilotes\r\n" + 
-				"            let new_tr = document.createElement(\"tr\");\r\n" + 
-				"\r\n" + 
-				"            let position = document.createElement(\"th\");\r\n" + 
-				"            position.scope = \"row\";\r\n" + 
-				"            position.textContent = driver[\"position\"];\r\n" + 
-				"\r\n" + 
-				"            let name = document.createElement(\"td\");\r\n" + 
-				"            name.textContent = driver[\"name\"];\r\n" + 
-				"            name.className = \"score\";\r\n" + 
-				"\r\n" + 
-				"            let teamname = document.createElement(\"td\");\r\n" + 
-				"            teamname.textContent = driver[\"teamname\"];\r\n" + 
-				"\r\n" + 
-				"            new_tr.append(position);\r\n" + 
-				"            new_tr.append(teamname);\r\n" + 
-				"            new_tr.append(name);\r\n" + 
-				"\r\n" + 
-				"            for (let i = 0; i < driver[\"results\"].length; i++) {\r\n" + 
-				"                let res = document.createElement(\"td\");\r\n" + 
-				"                res.textContent = driver[\"results\"][i];\r\n" + 
-				"                switch (driver[\"positions\"][i]) {\r\n" + 
-				"                    case 1:\r\n" + 
-				"                        res.className = \"first-place sp\";\r\n" + 
-				"                        break;\r\n" + 
-				"                    case 2:\r\n" + 
-				"                        res.className = \"second-place sp\";\r\n" + 
-				"                        break;\r\n" + 
-				"                    case 3:\r\n" + 
-				"                        res.className = \"third-place sp\";\r\n" + 
-				"                        break;\r\n" + 
-				"                    case -1:\r\n" + 
-				"                        res.className = \"dns sp\";\r\n" + 
-				"                        break;\r\n" + 
-				"                }\r\n" + 
-				"                new_tr.append(res);\r\n" + 
-				"              }\r\n" + 
-				"\r\n" + 
-				"            let points = document.createElement(\"td\");\r\n" + 
-				"            points.textContent = driver[\"totalpoints\"];\r\n" + 
-				"            points.className = \"score\";\r\n" + 
-				"            new_tr.append(points);\r\n" + 
-				"\r\n" + 
-				"            driver_data.append(new_tr);\r\n" + 
-				"        });\r\n" + 
-				"\r\n" + 
-				"        let team_data = document.getElementById(\"team-data\");\r\n" + 
-				"\r\n" + 
-				"        actual_JSON[\"teams\"].forEach(team => {//Tableau des equipes\r\n" + 
-				"\r\n" + 
-				"\r\n" + 
-				"            let new_tr = document.createElement(\"tr\");\r\n" + 
-				"            switch (team[\"position\"]) {\r\n" + 
-				"                case 1:\r\n" + 
-				"                    new_tr.className = \"first-place\";\r\n" + 
-				"                    break;\r\n" + 
-				"                case 2:\r\n" + 
-				"                    new_tr.className = \"second-place\";\r\n" + 
-				"                    break;\r\n" + 
-				"                case 3:\r\n" + 
-				"                    new_tr.className = \"third-place\";\r\n" + 
-				"                    break;\r\n" + 
-				"            }\r\n" + 
-				"\r\n" + 
-				"            let position = document.createElement(\"th\");\r\n" + 
-				"            position.scope = \"row\";\r\n" + 
-				"            position.textContent = team[\"position\"];\r\n" + 
-				"\r\n" + 
-				"            let name = document.createElement(\"td\");\r\n" + 
-				"            name.textContent = team[\"name\"];\r\n" + 
-				"            name.className = \"score\";\r\n" + 
-				"\r\n" + 
-				"            let victories = document.createElement(\"td\");\r\n" + 
-				"            victories.textContent = team[\"victories\"];\r\n" + 
-				"\r\n" + 
-				"            let podiums = document.createElement(\"td\");\r\n" + 
-				"            podiums.textContent = team[\"podiums\"];\r\n" + 
-				"\r\n" + 
-				"            let points = document.createElement(\"td\");\r\n" + 
-				"            points.textContent = team[\"points\"];\r\n" + 
-				"            points.className = \"score\";\r\n" + 
-				"\r\n" + 
-				"            new_tr.append(position);\r\n" + 
-				"            new_tr.append(name);\r\n" + 
-				"            new_tr.append(victories);\r\n" + 
-				"            new_tr.append(podiums);\r\n" + 
-				"            new_tr.append(points);\r\n" + 
-				"\r\n" + 
-				"            team_data.append(new_tr);\r\n" + 
-				"        });\r\n" + 
-				"\r\n" + 
-				"        //date \r\n" + 
-				"\r\n" + 
-				"        let jsondate = actual_JSON[\"date\"];\r\n" + 
-				"\r\n" + 
-				"        let dates = document.querySelectorAll(\".updated\");\r\n" + 
-				"        dates.forEach(date => {\r\n" + 
-				"            date.textContent = jsondate;\r\n" + 
-				"        });\r\n" + 
-				"\r\n" + 
-				"    });\r\n" + 
-				"}\r\n" + 
-				"\r\n" + 
-				"init();";
-		File file = new File("D:\\Documents\\MMOnline\\MMOLeague\\tableau\\public\\race.js");
-		file.delete();
-		FileWriter fr = null;
-        try {
-            fr = new FileWriter(file);
-            fr.write(s);
-        } catch (IOException e) {
-            e.printStackTrace();
-        }finally{
-            //close resources
-            try {
-                fr.close();
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
-        }
-		
-	}
-	
 	public void createJson() {
 		String path;
 		if (season.contentEquals("")) {
@@ -405,7 +258,7 @@ public class JsonGenerator {
 	}
 	
 	public static void main(String[] args) {
-		JsonGenerator test = new JsonGenerator("F3 League", "Season 1");
+		JsonGenerator test = new JsonGenerator("F3 League", "Season 2");
 //		System.out.println(test.toJson());
 		test.createJson();
 	}

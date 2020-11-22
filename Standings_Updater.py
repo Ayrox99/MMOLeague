@@ -184,4 +184,4 @@ def updateFullChampionship (league, season):
 #            print(name)
             updateStandingsPostRace(league, season, name[:len(name)-4])
             
-updateFullChampionship("F2 League", "Season 1")
+updateFullChampionship("F1 League", "Season 2")

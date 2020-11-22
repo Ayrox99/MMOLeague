@@ -1,0 +1,12 @@
+R1-Rio A,R2-Ardennes A,R3-Black Sea D,R4-Cape Town A,R5-Vancouver A,R10-Toluca A,R6-Stewart Island D,R7-Beijing A,R8-Monaco A,R9-Milan A
+1-Team Thai Racing-316p.
+2-RrSport-305p.
+3-the diff-289p.
+4-HRT-239p.
+5-HyperRacing-167p.
+6-Uduk Racing-167p.
+7-Mikado Autoworks-136p.
+8-wapiesz-115p.
+9-BorderlineRacing-95p.
+10-Ashour Racing-73p.
+11-MILC Motorsport-38p.

@@ -1,0 +1,59 @@
+body{
+    padding-bottom: 100px;
+}
+
+
+.league{
+    padding: 80px;
+}
+
+.pilotes{
+    margin: 20px auto;
+}
+
+.points{
+    color:red;
+}
+
+.gp{
+    color: rgb(115 115 115);
+    white-space: nowrap;
+}
+
+.second{
+    margin-top: 60px;
+}
+
+.update{
+    color: rgb(104, 104, 104);
+    margin: 80px auto; 
+}
+
+.table td, .table thead th{
+    text-align: center;
+}
+
+.first-place{
+    background-color: rgb(255, 246, 196) !important;
+}
+
+.second-place{
+    background-color: rgb(223, 222, 222) !important;
+    
+}
+
+.third-place{
+    background-color: #dbc1a8 !important;
+}
+
+.dns{
+    background-color: #ffcbcb;
+}
+
+.score{
+    font-weight: 700; 
+}
+
+.sp {
+    font-weight: 600;
+}

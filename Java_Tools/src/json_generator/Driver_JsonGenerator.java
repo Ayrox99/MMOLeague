@@ -36,8 +36,11 @@ public class Driver_JsonGenerator {
 		    	races.add(file.getName());
 		    }
 		}
+		//we sort the file by name (Java does it badly)
+		Utility_JsonGenerator.racesSorter(races);
 		try {
 			for (String race : races) {
+//				System.out.println(race);
 				boolean hasRaced = false;
 				File myObj = new File(path+"\\"+race);
 			    Scanner myReader = new Scanner(myObj);
@@ -107,8 +110,8 @@ public class Driver_JsonGenerator {
 	}
 	
 	public static void main(String[] args) {
-		Driver_JsonGenerator test = new Driver_JsonGenerator(3, "Buemi", "Roinel GP", 98, "F1 League", "Season 1");
-		System.out.println(test.toJson());
+		Driver_JsonGenerator test = new Driver_JsonGenerator(1, "Buemi", "Roinel GP", 200, "F1 League", "Season 1");
+//		System.out.println(test.toJson());
 	}
 	
 }

@@ -1,0 +1,24 @@
+R1-Rio A,R2-Ardennes A,R3-Black Sea D,R4-Cape Town A,R5-Vancouver A,R10-Toluca A,R6-Stewart Island D,R7-Beijing A,R8-Monaco A,R9-Milan A
+1-Blomqvist-Team Thai Racing-175p.
+2-Blomqvist-RrSport-155p.
+3-North-RrSport-150p.
+4-De Vries-the diff-149p.
+5-North-Team Thai Racing-141p.
+6-Vergne-the diff-140p.
+7-Bird-HRT-121p.
+8-Di Grassi-HyperRacing-96p.
+9-Blomqvist-Uduk Racing-90p.
+10-Rast-wapiesz-79p.
+11-North-Uduk Racing-77p.
+12-Da Costa-HyperRacing-71p.
+13-D'Ambrosio-Mikado Autoworks-69p.
+14-Vandoorne-Mikado Autoworks-67p.
+15-De Vries-HRT-61p.
+16-North-HRT-57p.
+17-Vergne-BorderlineRacing-52p.
+18-Buemi-BorderlineRacing-43p.
+19-Frinjs-Ashour Racing-38p.
+20-Massa-wapiesz-36p.
+21-Da Costa-Ashour Racing-35p.
+22-Buemi-MILC Motorsport-20p.
+23-Bird-MILC Motorsport-18p.

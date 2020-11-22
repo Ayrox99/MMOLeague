@@ -1,0 +1,18 @@
+R1-Rio A,R2-Ardennes A,R3-Black Sea D,R4-Cape Town A,R5-Vancouver A,R6-Noordwijk A,R10-Milan A,R11-Toluca A,R12-Dubai A,R7-Stewart Island D,R8-Beijing A,R9-Monaco A
+1-Nato-DMM Racing Team-229p.
+2-Evans-DMM Racing Team-201p.
+3-Nato-Roinel GP-201p.
+4-Nato-Thai Racing-181p.
+5-Massa-Roinel GP-179p.
+6-Blomqvist-DGD Racing-175p.
+7-Massa-DGD Racing-140p.
+8-North-Fearless Racings-132p.
+9-Bird-Fearless Racings-130p.
+10-Nato-CV19-105p.
+11-Evans-Thai Racing-72p.
+12-Guenther-Street Campus-71p.
+13-Rast-Street Campus-71p.
+14-Bird-Thai Racing-71p.
+15-Abt-CV19-63p.
+16-Sims-Fearless Racings-36p.
+17-Vergne-Roinel GP-15p.

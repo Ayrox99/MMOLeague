@@ -15,4 +15,9 @@ public class StandingsSorter {
 		this.ssd.sort();
 	}
 	
+	public static void main(String[] args) {
+		StandingsSorter ss = new StandingsSorter("F1 League", "Season 2");
+		ss.sort();
+	}
+	
 }
